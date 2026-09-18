@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-DZ 6
+# goit-markup-hw-02
+Домашнє завдання 2. 
