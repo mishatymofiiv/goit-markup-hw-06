@@ -11,17 +11,6 @@ ul {
 
 
 
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-
-
-
-}
-
-
 h1, h2, h3, h4, h5, h6 {
      margin: 0;
 }
@@ -34,7 +23,10 @@ img {
      display: block;
      max-width: 100%;
      height: auto;
+
+     
 }
+
 
 .sr-only {
   position: absolute;
@@ -47,4 +39,42 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+
+.hide {
+  display: none !important;
+}
+
+
+
+
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+
+}
+
+
+
+@media screen and (min-width: 768px){
+    .container{
+        min-width: 768px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1168px){
+    .container{
+        min-width: 1168px;
+        padding-left: 0;
+        padding-right: 15px;
+        
+
+    }
+    
 }
