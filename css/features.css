@@ -73,6 +73,16 @@
         width: calc((100% - 72px) / 4);
     }
 
+    .features-list h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .features-list p {
+        font-weight: 400;
+    }
+
     .decoration {
         display: flex;
         width: 264px;
