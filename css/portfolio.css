@@ -66,10 +66,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-
     transform: translateY(100%);
     transition: transform 250ms ease;
-
     background-color: #4D5AE5;
 }
 
@@ -86,8 +84,6 @@
     padding: 40px 32px;
 }
 
-
-/* Tablet */
 @media screen and (min-width: 768px) {
     .portfolio-list {
         flex-direction: row;
@@ -101,12 +97,14 @@
     }
 }
 
-
-/* Desktop */
 @media screen and (min-width: 1158px) {
     .portfolio {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .portfolio-list {
+        row-gap: 48px;
     }
 
     .portfolio-card {

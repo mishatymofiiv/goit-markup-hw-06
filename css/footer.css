@@ -158,8 +158,6 @@
     color: #FFFFFF;
 }
 
-
-/* Tablet */
 @media screen and (min-width: 768px) {
     .logo-footer,
     .media-title,
@@ -173,6 +171,8 @@
         align-items: flex-start;
         column-gap: 24px;
         row-gap: 72px;
+        padding-left: 108px;
+        padding-right: 108px;
     }
 
     .footer-logo-text {
@@ -192,10 +192,16 @@
         flex-direction: row;
         gap: 24px;
     }
+
+    .input-footer-form {
+        width: 264px;
+    }
+
+    .button-footer {
+        margin: 0;
+    }
 }
 
-
-/* Desktop */
 @media screen and (min-width: 1158px) {
     .footer {
         padding-top: 100px;
@@ -205,6 +211,8 @@
     .footer-container {
         flex-wrap: nowrap;
         column-gap: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-logo-text {
@@ -212,7 +220,7 @@
     }
 
     .media {
-        margin-right: 80px;
+        margin-right: 83px;
     }
 
     .subscribe {

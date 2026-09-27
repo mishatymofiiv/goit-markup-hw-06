@@ -113,7 +113,6 @@
 }
 
 
-/* Tablet */
 @media screen and (min-width: 768px) {
     .burger-menu {
         display: none;
@@ -147,7 +146,6 @@
 }
 
 
-/* Desktop */
 @media screen and (min-width: 1158px) {
     .logo-header {
         margin-right: 76px;
