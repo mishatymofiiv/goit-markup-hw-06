@@ -10,8 +10,6 @@
     flex-direction: column;
     align-items: center;
     gap: 72px;
-    padding-right: 16px;
-    padding-left: 16px;
 }
 
 .footer-logo-text {
@@ -110,7 +108,7 @@
 
 .input-footer-form {
     height: 40px;
-    width: 264px;
+    width: 100%;
     border: #FFFFFF solid 1px;
     border-radius: 4px;
     padding: 8px 16px;
@@ -160,6 +158,8 @@
     color: #FFFFFF;
 }
 
+
+/* Tablet */
 @media screen and (min-width: 768px) {
     .logo-footer,
     .media-title,
@@ -173,8 +173,6 @@
         align-items: flex-start;
         column-gap: 24px;
         row-gap: 72px;
-        padding-right: 108px;
-        padding-left: 108px;
     }
 
     .footer-logo-text {
@@ -197,7 +195,8 @@
 }
 
 
-@media screen and (min-width: 1168px) {
+/* Desktop */
+@media screen and (min-width: 1158px) {
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -206,8 +205,6 @@
     .footer-container {
         flex-wrap: nowrap;
         column-gap: 0;
-        padding-right: 15px;
-        padding-left: 15px;
     }
 
     .footer-logo-text {
@@ -220,5 +217,6 @@
 
     .subscribe {
         flex-basis: auto;
+        margin-left: auto;
     }
 }

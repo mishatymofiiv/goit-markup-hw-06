@@ -26,14 +26,15 @@
 
 .portfolio-card:hover,
 .portfolio-card:focus-within {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    box-shadow:
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-content {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid #E7E9FC;
     border-top: none;
 }
 
@@ -65,12 +66,15 @@
     left: 0;
     width: 100%;
     height: 100%;
+
     transform: translateY(100%);
     transition: transform 250ms ease;
+
     background-color: #4D5AE5;
 }
 
-.portfolio-card:hover .overlay {
+.portfolio-card:hover .overlay,
+.portfolio-card:focus-within .overlay {
     transform: translateY(0);
 }
 
@@ -83,12 +87,13 @@
 }
 
 
+/* Tablet */
 @media screen and (min-width: 768px) {
     .portfolio-list {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 48px;
+        row-gap: 72px;
     }
 
     .portfolio-card {
@@ -97,8 +102,8 @@
 }
 
 
-
-@media screen and (min-width: 1168px) {
+/* Desktop */
+@media screen and (min-width: 1158px) {
     .portfolio {
         padding-top: 120px;
         padding-bottom: 120px;

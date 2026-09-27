@@ -30,7 +30,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
 
-    margin: 0 auto 48px;
+    margin: 0 auto 72px;
     max-width: 216px;
 }
 
@@ -64,6 +64,7 @@
 }
 
 
+/* Tablet */
 @media screen and (min-width: 768px) {
     .hero {
         padding-top: 112px;
@@ -89,11 +90,13 @@
         max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
+        margin-bottom: 36px;
     }
 }
 
 
-@media screen and (min-width: 1168px) {
+/* Desktop */
+@media screen and (min-width: 1158px) {
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;
@@ -107,5 +110,9 @@
                 url("../images/hero-desktop.jpg") 1x,
                 url("../images/hero-desktop@2x.jpg") 2x
             );
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
     }
 }
