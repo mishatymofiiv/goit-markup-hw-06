@@ -35,7 +35,6 @@
     display: none;
 }
 
-
 @media screen and (min-width: 768px) {
     .features {
         padding-top: 96px;
@@ -54,17 +53,9 @@
     }
 
     .features-list h3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
         text-align: left;
     }
-
-    .features-list p {
-        font-weight: 400;
-    }
 }
-
 
 @media screen and (min-width: 1158px) {
     .features {
@@ -74,6 +65,8 @@
 
     .features-list {
         flex-wrap: nowrap;
+        column-gap: 24px;
+        row-gap: 0;
     }
 
     .features-list li {
@@ -86,10 +79,8 @@
         height: 112px;
         background-color: #F4F4FD;
         border-radius: 4px;
-
         justify-content: center;
         align-items: center;
-
         border: 1px solid #8E8F99;
         margin-bottom: 8px;
     }
